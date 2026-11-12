@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS DOM</title>
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            font-family: Arial;
+        }
+        button {
+            padding: 10px 24px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        input[type="range"] {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="headingOne">CS DOM</h1>
+    <button id="randomColorBtn">Random Color</button>
+    <input type="range" id="hueSlider" min="0" max="360" value="0">
+
+    <script src="script.js"></script>
+</body>
+</html>
